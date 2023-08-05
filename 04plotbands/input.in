@@ -1,0 +1,6 @@
+&bands
+  outdir  = './out'
+  prefix  = 'lk99'
+  filband = 'lk99.band'
+  lsym    = .true.
+/
