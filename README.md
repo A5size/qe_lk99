@@ -1,5 +1,5 @@
 # What is this?
-This is a collection of input files for conducting band structure calculations of LK-99 using Quantum Espresso. The calculation parameters are based on https://arxiv.org/abs/2307.16040. It has been tested on Ubuntu, with the machine specifications detailed below. Please be aware that I am a novice in this field and cannot guarantee the accuracy of these calculations.
+This is a collection of input files for conducting band structure calculations of [LK-99](https://arxiv.org/abs/2307.12008) using Quantum Espresso. The calculation parameters are based on https://arxiv.org/abs/2307.16040. It has been tested on Ubuntu, with the machine specifications detailed below. Please be aware that I am a novice in this field and cannot guarantee the accuracy of these calculations.
 
 # Install Quantum Espresso
 The following are instructions on how to install Quantum Espresso. Feel free to adjust them to suit your specific environment.
@@ -16,7 +16,8 @@ The following are instructions on how to install Quantum Espresso. Feel free to 
 ```
 
 # Run
-Running run.sh will initiate a sequence of calculations, ending with the band structure calculation. Before executing run.sh, please specify the path to your Quantum Espresso installation and the number of cores you intend to use.
+Running run.sh will initiate a sequence of calculations, ending with the band structure calculation. 
+**Before executing run.sh, please write the path to your installed Quantum Espresso and the number of cores you intend to use within run.sh.**
 
 ```sh
 % pwd
