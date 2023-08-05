@@ -28,10 +28,10 @@ Upon completion of the calculations, a band structure diagram will be outputted 
 
 # Results
 ## Machine Specifications and Calculation Time
-The tests were conducted on a machine with the following specifications:
-OS: Ubuntu 20.04.6 LTS
-Processor: AMD Ryzen 5 PRO 4650G (3.7-4.2GHz/6 cores/12 threads/8MB cache/TDP 65W)
-Memory: DDR4-2666 16GB×2 (Dual channel, Total 32GB)
+The tests were conducted on a machine with the following specifications:  
+OS: Ubuntu 20.04.6 LTS  
+Processor: AMD Ryzen 5 PRO 4650G (3.7-4.2GHz/6 cores/12 threads/8MB cache/TDP 65W)  
+Memory: DDR4-2666 16GB×2 (Dual channel, Total 32GB) 
 
 The calculation times for parallelization with 6 cores using MPI were as follows:
 1. 01scf (1h35m)
@@ -42,13 +42,13 @@ The calculation times for parallelization with 6 cores using MPI were as follows
 ## Band Structure
 The following band structure was obtained.
 
-[Insert image here]
+![Band structure for the energy range from -2.0eV to 4.0eV](images/bands_wide.png)
 
 Like the reference paper, flat bands near the Fermi level are visible.
 
 Upon closer inspection, the following image was obtained.
 
-[Insert image here]
+![Band structure for the energy range from -0.1eV to 0.1eV](images/bands_zoom.png)
 
 Comparing with the reference paper, it seems that the entire band is approximately 0.02eV lower. I am unsure whether this discrepancy is due to slight differences in calculation conditions or if there is an issue with the input file. If you notice anything unusual, please contact me.
 
