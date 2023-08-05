@@ -1,5 +1,5 @@
 # What is this?
-This repository contains a collection of input files for conducting band structure calculations of [LK-99](https://arxiv.org/abs/2307.12008) using Quantum Espresso. The calculation parameters are based on those described in https://arxiv.org/abs/2307.16040. These files have been tested on Ubuntu, with the machine specifications detailed below. Please be aware that I am a novice in this field and cannot guarantee the accuracy of these calculations.
+This repository contains a collection of input files for conducting band structure calculations of [LK-99](https://arxiv.org/abs/2307.12008) using Quantum Espresso. The calculation conditions are based on a paper available at https://arxiv.org/abs/2307.16040. Please note that while VASP was used in this reference, several parameters have been modified here to suit Quantum Espresso. These files have been tested on Ubuntu, with the machine specifications detailed below. Please be aware that I am a novice in this field and cannot guarantee the accuracy of these calculations. Also, please note that I am not associated with the authors of these papers in any way.
 
 # Install Quantum Espresso
 The following are instructions on how to install Quantum Espresso. Feel free to adjust them to suit your specific environment.
